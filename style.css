@@ -1,0 +1,96 @@
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(236, 22, 22);
+    text-align: center;
+    font-size: 300%;
+    font-weight: normal;
+}
+.alegreya {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.eb-garamond-my-text {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+            background-color: gray;
+            overflow: hidden;
+            padding: 0px 10px;
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+            padding: 4px;
+            max-width: 470px;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+.nav-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border-radius: 7px;
+    margin: 0 auto;
+    
+}
+        
+.nav-item:hover {
+    background-color: #DADBDB;
+    color: #0069C5;
+}
+        
+.active {
+    background-color: #DADBDB;
+    color: #0069C5;
+}
+.rightimg  {
+    float: right; 
+
+}
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+   }
+.center {
+    margin: auto;
+    display: block;
+   }
+.text{
+    font-family: Inter;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+margin: 0 auto; 
+            max-width: 1000px;
+            padding: 20px;
+}
+.back{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+.animation{
+    transition: transform 0.3s ease;
+}
+.animation:hover {
+     transform: scale(1.05);
+}

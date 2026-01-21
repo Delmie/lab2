@@ -1,0 +1,72 @@
+h1{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.zaglavie{
+    font-family: Inter;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.text-1{
+    font-family: Inter;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+margin: 0 auto; /* Центрирование по горизонтали */
+            max-width: 1000px; /* Максимальная ширина блока */
+            padding: 20px;
+
+}
+.bold{
+    font-family: Inter;
+font-weight: bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+white-space: nowrap;
+}
+.centered-text {
+            margin: 0 auto; /* Центрирование по горизонтали */
+            max-width: 1400px; /* Максимальная ширина блока */
+            padding: 20px;
+             /* Центрирование текста внутри блока */
+             
+        }
+.bolddotted{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: dotted;
+text-decoration-offset: 0%;
+text-decoration-thickness: 10%;
+text-decoration-skip-ink: auto;
+}
+.blue-text{
+color:#0069C5;
+background: #DADBDB;
+}
+.block{
+    width: 700px;
+    height: 200px;
+    background-color:#DADBDB;
+    border-left: 4px solid black;
+    margin: 0 auto; /* Центрирование по горизонтали */
+}

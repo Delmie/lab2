@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жлобин</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .great-vibes-regular {
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        .block {
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .center-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            pointer-events: none;
+        }
+        
+        .center-content > * {
+            pointer-events: auto;
+        }
+        
+        .title {
+            font-size: 4vw;
+            margin-bottom: 2vh;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .navbar {
+            background-color: gray;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+            padding: 8px;
+            max-width: 30vw;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .nav-item {
+            color: white;
+            text-align: center;
+            padding: 1.5vh 3vw;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            border-radius: 7px;
+            font-size: 1.2vw;
+        }
+        
+        .nav-item:hover {
+            background-color: #DADBDB;
+            color: #0069C5;
+        }
+        
+        .photo {
+            background-color: #e0e0e0;
+        }
+        
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .photo:hover img {
+            transform: scale(1.05);
+        }
+        
+        .center {
+            background-color: #f0f0f0;
+            position: relative;
+        }
+        
+        .center::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #f0f0f0;
+            z-index: 1;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="block photo">
+        <a href="https://monument.goub.by/?p=1297"><img src="ea94f44b76eb001bc40c7b662efd72e6.jpg" alt="Фото 1"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://pass.rw.by/ru/railway_stations/zhlobin/"><img src="171d31cc67dc4ebf50f53e8d9b7f0f88.jpg" alt="Фото 2"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://vk.com/gckzhlobin"><img src="zhlobin_14.jpg" alt="Фото 3"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://zorzhlobin.by/obekty/gk-dneprovskaja-zhemchuzhina/"><img src="caption.jpg" alt="Фото 4"></a>
+    </div>
+    
+    <div class="block center"></div>
+    
+    <div class="center-content">
+        <div class="title great-vibes-regular">Жлобин</div>
+        <a href="index.html">
+            <div class="navbar">
+                <div class="nav-item">Назад</div>
+            </div>
+        </a>
+    </div>
+    
+    <div class="block photo">
+        <a href="https://msocservis.by/o-dvortse/"><img src="DMK.jpg" alt="Фото 5"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://yandex.by/maps/org/varyazhskaya_ladya/74107612370/"><img src="zhlobin8k2.jpg" alt="Фото 6"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://zhlobin.cerkov.ru/"><img src="07b95a6f96e8185a9f3dbc60cbd8401f.jpg" alt="Фото 7"></a>
+    </div>
+    <div class="block photo">
+        <a href="https://monument.goub.by/?p=1297"><img src="8294bb474c71b70c12726371f23aee96.jpg" alt="Фото 8"></a>
+    </div>
+</body>
+</html>
